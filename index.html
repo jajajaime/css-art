@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Art</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-grey-lighter">
+    <div class="flex flex-col justify-center px-4 py-2 m-10">
+        <div class="mb-20">
+            <h1 class="text-center px-4 py-2 text-grey-darker">CSS Art</h1>
+            <h5 class="text-center text-grey-dark">by jajajaime</h5>
+        </div>
+
+        <div>
+            <h3 class="text-center">2018-08-31 MacBook Air (work in progress)</h3>
+
+
+            <style>
+                .macbook-air .cover {
+                    /*background-color: #aaa;*/
+                    border-radius: 33px;
+                    width: 91%;
+                    max-width: 900px;
+                    margin: 0 auto;
+                    overflow: hidden;
+                    position: relative;
+                    padding-top: 62%;
+                    background-image: linear-gradient(to bottom right, #BABABE, #E3E3E3, #BABABE);
+                }
+                .macbook-air .rubber {
+                    position: absolute;
+                    border: 3px solid black;
+                    padding: 38px 38px 50px;
+                    border-radius: 29px;
+                    top: 4px;
+                    bottom: 4px;
+                    left: 4px;
+                    right: 4px;
+                }
+
+                .macbook-air .webcam {
+                    position: absolute;
+                    top: 14px;
+                    width: 10.5px;
+                    height: 10.5px;
+                    background-color: black;
+                    border-radius: 10px;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                }
+
+                .macbook-air .webcam .reflection {
+                    background-color: #bbb;
+                    width: 1px;
+                    height: 1px;
+                }
+
+                .macbook-air .screen {
+                    margin: 0 auto;
+                    background-color: black;
+                    border-radius: 2px;
+                    height: 100%;
+                }
+                .macbook-air .branding {
+                    position: absolute;
+                    bottom: 17px;
+                    margin: 0 auto;
+                    left: 0;
+                    right: 0;
+                }
+                .macbook-air .branding .macbook {
+                    font-family: Myriad Pro;
+                    font-weight: 500;
+                    font-size: 16px;
+                }
+                .macbook-air .branding .air {
+                    font-weight: 200;
+                    font-size: 15px;
+                }
+            </style>
+
+            <div class="macbook-air">
+                <div class="cover flex items-center">
+                    <div class="rubber flex-1">
+                        <div class="webcam flex justify-center items-center">
+                            <div class="reflection"></div>
+                        </div>
+                        <div class="screen"></div>
+                        <div class="branding text-center"><span class="macbook">MacBook</span> <span class="air">Air</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
